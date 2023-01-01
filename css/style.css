@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.message {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 48, 18);
+    padding: 6px 18px;
+    clear: both;
+    margin-top: 10px;
+    opacity: 80%;
+    animation-name: example2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+@keyframes example2 {
+    from {
+        opacity: 40%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.message2 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    padding: 11px 13px;
+    clear: both;
+    font-size: 15px;
+    opacity: 70%;
+    margin-left: 1px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+    from {
+        opacity: 40%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.containers {
+    width: 83%;
+    height: 72vh;
+    border-radius: 20px;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    opacity: 87%;
+    padding: 10px 10px;
+    margin: auto;
+}
+
+.container-flex {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-wrap: wrap;
+    width: 83%;
+    margin: auto;
+    justify-content: end;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    opacity: 90%;
+}
+
+.send {
+    padding-bottom: 30px;
+}
+
+
+#cont {
+
+    height: 580px;
+    background-size: 100%;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    background: center/cover no-repeat url('/css/bg14.jpg');
+    background-attachment: fixed;
+
+}
+
+.span{
+    opacity: 20%;
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
